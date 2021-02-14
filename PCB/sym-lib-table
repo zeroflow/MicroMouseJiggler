@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name Arduino_ProMicro)(type Legacy)(uri ${KIPRJMOD}/Arduino_ProMicro.lib)(options "")(descr ""))
+)

@@ -17,12 +17,12 @@
 #define BRIGHTNESS_OFF_IDLE 0
 
 #define COLOR_OFF           COLOR(255,0,0)
-#define BRIGHTNESS_OFF      20
+#define BRIGHTNESS_OFF      125
 
 #define COLOR_IDLE          COLOR(0,255,0)
-#define BRIGHTNESS_IDLE     25
+#define BRIGHTNESS_IDLE     255
 
-#define COLOR_ACTIVE        COLOR(0,255,0)
+#define COLOR_ACTIVE        COLOR(0,0,255)
 #define BRIGHTNESS_ACTIVE   255
 
 /* -------------------------------------- 
@@ -60,7 +60,7 @@
 
 //#define DEBUG
 
-#define COLOR(R, G, B) (((uint32_t)R<<16)|((uint32_t)G<<8)|((uint32_t)B<<8))
+#define COLOR(R, G, B) (((uint32_t)R<<16)|((uint32_t)G<<8)|((uint32_t)B))
 #define TIME_PASSED(evt, len) ((millis() - evt) > len)
 
 typedef enum {
